@@ -22,9 +22,11 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
 ```
 然后目录里还有一个src子目录，里面包含一个main.rs文件
 ```rust
 fn main() {
     println!("Hello, world!");
+}
 ```
