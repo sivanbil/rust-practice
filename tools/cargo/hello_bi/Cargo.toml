@@ -1,0 +1,17 @@
+[package]
+name = "hello_bi"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "hello_bi"
+path = "src/main.rs"
+
+[[bin]]
+name = "hello_second"
+path = "src/second.rs"
+
